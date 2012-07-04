@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD42249A15A33FF2005A60C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42249915A33FF2005A60C1 /* UIKit.framework */; };
+		AD42249C15A33FF2005A60C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42249B15A33FF2005A60C1 /* Foundation.framework */; };
+		AD42249E15A33FF2005A60C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42249D15A33FF2005A60C1 /* CoreGraphics.framework */; };
+		AD4224A415A33FF2005A60C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD4224A215A33FF2005A60C1 /* InfoPlist.strings */; };
+		AD4224A615A33FF2005A60C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4224A515A33FF2005A60C1 /* main.m */; };
+		AD4224AA15A33FF2005A60C1 /* CRTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4224A915A33FF2005A60C1 /* CRTabBarAppDelegate.m */; };
+		AD4224BB15A33FF3005A60C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4224BA15A33FF3005A60C1 /* SenTestingKit.framework */; };
+		AD4224BC15A33FF3005A60C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42249915A33FF2005A60C1 /* UIKit.framework */; };
+		AD4224BD15A33FF3005A60C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42249B15A33FF2005A60C1 /* Foundation.framework */; };
+		AD4224C515A33FF3005A60C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD4224C315A33FF3005A60C1 /* InfoPlist.strings */; };
+		AD4224C815A33FF3005A60C1 /* CRTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4224C715A33FF3005A60C1 /* CRTabBarTests.m */; };
+		AD4224D315A34024005A60C1 /* CRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4224D215A34024005A60C1 /* CRTabBarController.m */; };
+		AD4224D415A34024005A60C1 /* CRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4224D215A34024005A60C1 /* CRTabBarController.m */; };
+		AD4224F515A344FB005A60C1 /* ICN_account_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D515A344FB005A60C1 /* ICN_account_ON.png */; };
+		AD4224F615A344FB005A60C1 /* ICN_account_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D515A344FB005A60C1 /* ICN_account_ON.png */; };
+		AD4224F715A344FB005A60C1 /* ICN_account_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D615A344FB005A60C1 /* ICN_account_ON@2x.png */; };
+		AD4224F815A344FB005A60C1 /* ICN_account_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D615A344FB005A60C1 /* ICN_account_ON@2x.png */; };
+		AD4224F915A344FB005A60C1 /* ICN_account.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D715A344FB005A60C1 /* ICN_account.png */; };
+		AD4224FA15A344FB005A60C1 /* ICN_account.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D715A344FB005A60C1 /* ICN_account.png */; };
+		AD4224FB15A344FB005A60C1 /* ICN_account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D815A344FB005A60C1 /* ICN_account@2x.png */; };
+		AD4224FC15A344FB005A60C1 /* ICN_account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D815A344FB005A60C1 /* ICN_account@2x.png */; };
+		AD4224FD15A344FB005A60C1 /* ICN_brand_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D915A344FB005A60C1 /* ICN_brand_ON.png */; };
+		AD4224FE15A344FB005A60C1 /* ICN_brand_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224D915A344FB005A60C1 /* ICN_brand_ON.png */; };
+		AD4224FF15A344FB005A60C1 /* ICN_brand_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DA15A344FB005A60C1 /* ICN_brand_ON@2x.png */; };
+		AD42250015A344FB005A60C1 /* ICN_brand_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DA15A344FB005A60C1 /* ICN_brand_ON@2x.png */; };
+		AD42250115A344FB005A60C1 /* ICN_brand.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DB15A344FB005A60C1 /* ICN_brand.png */; };
+		AD42250215A344FB005A60C1 /* ICN_brand.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DB15A344FB005A60C1 /* ICN_brand.png */; };
+		AD42250315A344FB005A60C1 /* ICN_brand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DC15A344FB005A60C1 /* ICN_brand@2x.png */; };
+		AD42250415A344FB005A60C1 /* ICN_brand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DC15A344FB005A60C1 /* ICN_brand@2x.png */; };
+		AD42250515A344FB005A60C1 /* ICN_home_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DD15A344FB005A60C1 /* ICN_home_ON.png */; };
+		AD42250615A344FB005A60C1 /* ICN_home_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DD15A344FB005A60C1 /* ICN_home_ON.png */; };
+		AD42250715A344FB005A60C1 /* ICN_home_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DE15A344FB005A60C1 /* ICN_home_ON@2x.png */; };
+		AD42250815A344FB005A60C1 /* ICN_home_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DE15A344FB005A60C1 /* ICN_home_ON@2x.png */; };
+		AD42250915A344FB005A60C1 /* ICN_home.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DF15A344FB005A60C1 /* ICN_home.png */; };
+		AD42250A15A344FB005A60C1 /* ICN_home.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224DF15A344FB005A60C1 /* ICN_home.png */; };
+		AD42250B15A344FB005A60C1 /* ICN_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E015A344FB005A60C1 /* ICN_home@2x.png */; };
+		AD42250C15A344FB005A60C1 /* ICN_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E015A344FB005A60C1 /* ICN_home@2x.png */; };
+		AD42250D15A344FB005A60C1 /* ICN_tab_info_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E115A344FB005A60C1 /* ICN_tab_info_ON.png */; };
+		AD42250E15A344FB005A60C1 /* ICN_tab_info_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E115A344FB005A60C1 /* ICN_tab_info_ON.png */; };
+		AD42250F15A344FB005A60C1 /* ICN_tab_info_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E215A344FB005A60C1 /* ICN_tab_info_ON@2x.png */; };
+		AD42251015A344FB005A60C1 /* ICN_tab_info_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E215A344FB005A60C1 /* ICN_tab_info_ON@2x.png */; };
+		AD42251115A344FB005A60C1 /* ICN_tab_info.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E315A344FB005A60C1 /* ICN_tab_info.png */; };
+		AD42251215A344FB005A60C1 /* ICN_tab_info.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E315A344FB005A60C1 /* ICN_tab_info.png */; };
+		AD42251315A344FB005A60C1 /* ICN_tab_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E415A344FB005A60C1 /* ICN_tab_info@2x.png */; };
+		AD42251415A344FB005A60C1 /* ICN_tab_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E415A344FB005A60C1 /* ICN_tab_info@2x.png */; };
+		AD42251515A344FB005A60C1 /* ICN_more_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E515A344FB005A60C1 /* ICN_more_ON.png */; };
+		AD42251615A344FB005A60C1 /* ICN_more_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E515A344FB005A60C1 /* ICN_more_ON.png */; };
+		AD42251715A344FB005A60C1 /* ICN_more_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E615A344FB005A60C1 /* ICN_more_ON@2x.png */; };
+		AD42251815A344FB005A60C1 /* ICN_more_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E615A344FB005A60C1 /* ICN_more_ON@2x.png */; };
+		AD42251915A344FB005A60C1 /* ICN_more.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E715A344FB005A60C1 /* ICN_more.png */; };
+		AD42251A15A344FB005A60C1 /* ICN_more.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E715A344FB005A60C1 /* ICN_more.png */; };
+		AD42251B15A344FB005A60C1 /* ICN_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E815A344FB005A60C1 /* ICN_more@2x.png */; };
+		AD42251C15A344FB005A60C1 /* ICN_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E815A344FB005A60C1 /* ICN_more@2x.png */; };
+		AD42251D15A344FB005A60C1 /* ICN_recent_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E915A344FB005A60C1 /* ICN_recent_ON.png */; };
+		AD42251E15A344FB005A60C1 /* ICN_recent_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224E915A344FB005A60C1 /* ICN_recent_ON.png */; };
+		AD42251F15A344FB005A60C1 /* ICN_recent_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EA15A344FB005A60C1 /* ICN_recent_ON@2x.png */; };
+		AD42252015A344FB005A60C1 /* ICN_recent_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EA15A344FB005A60C1 /* ICN_recent_ON@2x.png */; };
+		AD42252115A344FB005A60C1 /* ICN_recent.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EB15A344FB005A60C1 /* ICN_recent.png */; };
+		AD42252215A344FB005A60C1 /* ICN_recent.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EB15A344FB005A60C1 /* ICN_recent.png */; };
+		AD42252315A344FB005A60C1 /* ICN_recent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EC15A344FB005A60C1 /* ICN_recent@2x.png */; };
+		AD42252415A344FB005A60C1 /* ICN_recent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EC15A344FB005A60C1 /* ICN_recent@2x.png */; };
+		AD42252515A344FB005A60C1 /* ICN_saved_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224ED15A344FB005A60C1 /* ICN_saved_ON.png */; };
+		AD42252615A344FB005A60C1 /* ICN_saved_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224ED15A344FB005A60C1 /* ICN_saved_ON.png */; };
+		AD42252715A344FB005A60C1 /* ICN_saved_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EE15A344FB005A60C1 /* ICN_saved_ON@2x.png */; };
+		AD42252815A344FB005A60C1 /* ICN_saved_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EE15A344FB005A60C1 /* ICN_saved_ON@2x.png */; };
+		AD42252915A344FB005A60C1 /* ICN_saved.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EF15A344FB005A60C1 /* ICN_saved.png */; };
+		AD42252A15A344FB005A60C1 /* ICN_saved.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224EF15A344FB005A60C1 /* ICN_saved.png */; };
+		AD42252B15A344FB005A60C1 /* ICN_saved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F015A344FB005A60C1 /* ICN_saved@2x.png */; };
+		AD42252C15A344FB005A60C1 /* ICN_saved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F015A344FB005A60C1 /* ICN_saved@2x.png */; };
+		AD42252D15A344FB005A60C1 /* ICN_tab_search_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F115A344FB005A60C1 /* ICN_tab_search_ON.png */; };
+		AD42252E15A344FB005A60C1 /* ICN_tab_search_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F115A344FB005A60C1 /* ICN_tab_search_ON.png */; };
+		AD42252F15A344FB005A60C1 /* ICN_tab_search_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F215A344FB005A60C1 /* ICN_tab_search_ON@2x.png */; };
+		AD42253015A344FB005A60C1 /* ICN_tab_search_ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F215A344FB005A60C1 /* ICN_tab_search_ON@2x.png */; };
+		AD42253115A344FB005A60C1 /* ICN_tab_search.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F315A344FB005A60C1 /* ICN_tab_search.png */; };
+		AD42253215A344FB005A60C1 /* ICN_tab_search.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F315A344FB005A60C1 /* ICN_tab_search.png */; };
+		AD42253315A344FB005A60C1 /* ICN_tab_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F415A344FB005A60C1 /* ICN_tab_search@2x.png */; };
+		AD42253415A344FB005A60C1 /* ICN_tab_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD4224F415A344FB005A60C1 /* ICN_tab_search@2x.png */; };
+		AD42253C15A34DE1005A60C1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD42253B15A34DE1005A60C1 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD4224BE15A33FF3005A60C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42248C15A33FF2005A60C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42249415A33FF2005A60C1;
+			remoteInfo = CRTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD42249515A33FF2005A60C1 /* CRTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42249915A33FF2005A60C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD42249B15A33FF2005A60C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD42249D15A33FF2005A60C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD4224A115A33FF2005A60C1 /* CRTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRTabBar-Info.plist"; sourceTree = "<group>"; };
+		AD4224A315A33FF2005A60C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD4224A515A33FF2005A60C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD4224A715A33FF2005A60C1 /* CRTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		AD4224A815A33FF2005A60C1 /* CRTabBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRTabBarAppDelegate.h; sourceTree = "<group>"; };
+		AD4224A915A33FF2005A60C1 /* CRTabBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTabBarAppDelegate.m; sourceTree = "<group>"; };
+		AD4224B915A33FF3005A60C1 /* CRTabBarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRTabBarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4224BA15A33FF3005A60C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD4224C215A33FF3005A60C1 /* CRTabBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRTabBarTests-Info.plist"; sourceTree = "<group>"; };
+		AD4224C415A33FF3005A60C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD4224C615A33FF3005A60C1 /* CRTabBarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRTabBarTests.h; sourceTree = "<group>"; };
+		AD4224C715A33FF3005A60C1 /* CRTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTabBarTests.m; sourceTree = "<group>"; };
+		AD4224D115A34024005A60C1 /* CRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTabBarController.h; sourceTree = "<group>"; };
+		AD4224D215A34024005A60C1 /* CRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTabBarController.m; sourceTree = "<group>"; };
+		AD4224D515A344FB005A60C1 /* ICN_account_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_account_ON.png; sourceTree = "<group>"; };
+		AD4224D615A344FB005A60C1 /* ICN_account_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_account_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224D715A344FB005A60C1 /* ICN_account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_account.png; sourceTree = "<group>"; };
+		AD4224D815A344FB005A60C1 /* ICN_account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_account@2x.png"; sourceTree = "<group>"; };
+		AD4224D915A344FB005A60C1 /* ICN_brand_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_brand_ON.png; sourceTree = "<group>"; };
+		AD4224DA15A344FB005A60C1 /* ICN_brand_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_brand_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224DB15A344FB005A60C1 /* ICN_brand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_brand.png; sourceTree = "<group>"; };
+		AD4224DC15A344FB005A60C1 /* ICN_brand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_brand@2x.png"; sourceTree = "<group>"; };
+		AD4224DD15A344FB005A60C1 /* ICN_home_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_home_ON.png; sourceTree = "<group>"; };
+		AD4224DE15A344FB005A60C1 /* ICN_home_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_home_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224DF15A344FB005A60C1 /* ICN_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_home.png; sourceTree = "<group>"; };
+		AD4224E015A344FB005A60C1 /* ICN_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_home@2x.png"; sourceTree = "<group>"; };
+		AD4224E115A344FB005A60C1 /* ICN_tab_info_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_tab_info_ON.png; sourceTree = "<group>"; };
+		AD4224E215A344FB005A60C1 /* ICN_tab_info_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_tab_info_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224E315A344FB005A60C1 /* ICN_tab_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_tab_info.png; sourceTree = "<group>"; };
+		AD4224E415A344FB005A60C1 /* ICN_tab_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_tab_info@2x.png"; sourceTree = "<group>"; };
+		AD4224E515A344FB005A60C1 /* ICN_more_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_more_ON.png; sourceTree = "<group>"; };
+		AD4224E615A344FB005A60C1 /* ICN_more_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_more_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224E715A344FB005A60C1 /* ICN_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_more.png; sourceTree = "<group>"; };
+		AD4224E815A344FB005A60C1 /* ICN_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_more@2x.png"; sourceTree = "<group>"; };
+		AD4224E915A344FB005A60C1 /* ICN_recent_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_recent_ON.png; sourceTree = "<group>"; };
+		AD4224EA15A344FB005A60C1 /* ICN_recent_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_recent_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224EB15A344FB005A60C1 /* ICN_recent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_recent.png; sourceTree = "<group>"; };
+		AD4224EC15A344FB005A60C1 /* ICN_recent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_recent@2x.png"; sourceTree = "<group>"; };
+		AD4224ED15A344FB005A60C1 /* ICN_saved_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_saved_ON.png; sourceTree = "<group>"; };
+		AD4224EE15A344FB005A60C1 /* ICN_saved_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_saved_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224EF15A344FB005A60C1 /* ICN_saved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_saved.png; sourceTree = "<group>"; };
+		AD4224F015A344FB005A60C1 /* ICN_saved@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_saved@2x.png"; sourceTree = "<group>"; };
+		AD4224F115A344FB005A60C1 /* ICN_tab_search_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_tab_search_ON.png; sourceTree = "<group>"; };
+		AD4224F215A344FB005A60C1 /* ICN_tab_search_ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_tab_search_ON@2x.png"; sourceTree = "<group>"; };
+		AD4224F315A344FB005A60C1 /* ICN_tab_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICN_tab_search.png; sourceTree = "<group>"; };
+		AD4224F415A344FB005A60C1 /* ICN_tab_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ICN_tab_search@2x.png"; sourceTree = "<group>"; };
+		AD42253B15A34DE1005A60C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD42249215A33FF2005A60C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42249A15A33FF2005A60C1 /* UIKit.framework in Frameworks */,
+				AD42249C15A33FF2005A60C1 /* Foundation.framework in Frameworks */,
+				AD42249E15A33FF2005A60C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4224B515A33FF3005A60C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4224BB15A33FF3005A60C1 /* SenTestingKit.framework in Frameworks */,
+				AD4224BC15A33FF3005A60C1 /* UIKit.framework in Frameworks */,
+				AD4224BD15A33FF3005A60C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD42248A15A33FF2005A60C1 = {
+			isa = PBXGroup;
+			children = (
+				AD42253B15A34DE1005A60C1 /* README.md */,
+				AD42249F15A33FF2005A60C1 /* CRTabBar */,
+				AD4224C015A33FF3005A60C1 /* CRTabBarTests */,
+				AD42249815A33FF2005A60C1 /* Frameworks */,
+				AD42249615A33FF2005A60C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD42249615A33FF2005A60C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD42249515A33FF2005A60C1 /* CRTabBar.app */,
+				AD4224B915A33FF3005A60C1 /* CRTabBarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD42249815A33FF2005A60C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD42249915A33FF2005A60C1 /* UIKit.framework */,
+				AD42249B15A33FF2005A60C1 /* Foundation.framework */,
+				AD42249D15A33FF2005A60C1 /* CoreGraphics.framework */,
+				AD4224BA15A33FF3005A60C1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD42249F15A33FF2005A60C1 /* CRTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AD4224A815A33FF2005A60C1 /* CRTabBarAppDelegate.h */,
+				AD4224A915A33FF2005A60C1 /* CRTabBarAppDelegate.m */,
+				AD4224D115A34024005A60C1 /* CRTabBarController.h */,
+				AD4224D215A34024005A60C1 /* CRTabBarController.m */,
+				AD4224A015A33FF2005A60C1 /* Supporting Files */,
+			);
+			path = CRTabBar;
+			sourceTree = "<group>";
+		};
+		AD4224A015A33FF2005A60C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD42253515A34500005A60C1 /* Images */,
+				AD4224A115A33FF2005A60C1 /* CRTabBar-Info.plist */,
+				AD4224A215A33FF2005A60C1 /* InfoPlist.strings */,
+				AD4224A515A33FF2005A60C1 /* main.m */,
+				AD4224A715A33FF2005A60C1 /* CRTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD4224C015A33FF3005A60C1 /* CRTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD4224C615A33FF3005A60C1 /* CRTabBarTests.h */,
+				AD4224C715A33FF3005A60C1 /* CRTabBarTests.m */,
+				AD4224C115A33FF3005A60C1 /* Supporting Files */,
+			);
+			path = CRTabBarTests;
+			sourceTree = "<group>";
+		};
+		AD4224C115A33FF3005A60C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD4224C215A33FF3005A60C1 /* CRTabBarTests-Info.plist */,
+				AD4224C315A33FF3005A60C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD42253515A34500005A60C1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD4224D515A344FB005A60C1 /* ICN_account_ON.png */,
+				AD4224D615A344FB005A60C1 /* ICN_account_ON@2x.png */,
+				AD4224D715A344FB005A60C1 /* ICN_account.png */,
+				AD4224D815A344FB005A60C1 /* ICN_account@2x.png */,
+				AD4224D915A344FB005A60C1 /* ICN_brand_ON.png */,
+				AD4224DA15A344FB005A60C1 /* ICN_brand_ON@2x.png */,
+				AD4224DB15A344FB005A60C1 /* ICN_brand.png */,
+				AD4224DC15A344FB005A60C1 /* ICN_brand@2x.png */,
+				AD4224DD15A344FB005A60C1 /* ICN_home_ON.png */,
+				AD4224DE15A344FB005A60C1 /* ICN_home_ON@2x.png */,
+				AD4224DF15A344FB005A60C1 /* ICN_home.png */,
+				AD4224E015A344FB005A60C1 /* ICN_home@2x.png */,
+				AD4224E115A344FB005A60C1 /* ICN_tab_info_ON.png */,
+				AD4224E215A344FB005A60C1 /* ICN_tab_info_ON@2x.png */,
+				AD4224E315A344FB005A60C1 /* ICN_tab_info.png */,
+				AD4224E415A344FB005A60C1 /* ICN_tab_info@2x.png */,
+				AD4224E515A344FB005A60C1 /* ICN_more_ON.png */,
+				AD4224E615A344FB005A60C1 /* ICN_more_ON@2x.png */,
+				AD4224E715A344FB005A60C1 /* ICN_more.png */,
+				AD4224E815A344FB005A60C1 /* ICN_more@2x.png */,
+				AD4224E915A344FB005A60C1 /* ICN_recent_ON.png */,
+				AD4224EA15A344FB005A60C1 /* ICN_recent_ON@2x.png */,
+				AD4224EB15A344FB005A60C1 /* ICN_recent.png */,
+				AD4224EC15A344FB005A60C1 /* ICN_recent@2x.png */,
+				AD4224ED15A344FB005A60C1 /* ICN_saved_ON.png */,
+				AD4224EE15A344FB005A60C1 /* ICN_saved_ON@2x.png */,
+				AD4224EF15A344FB005A60C1 /* ICN_saved.png */,
+				AD4224F015A344FB005A60C1 /* ICN_saved@2x.png */,
+				AD4224F115A344FB005A60C1 /* ICN_tab_search_ON.png */,
+				AD4224F215A344FB005A60C1 /* ICN_tab_search_ON@2x.png */,
+				AD4224F315A344FB005A60C1 /* ICN_tab_search.png */,
+				AD4224F415A344FB005A60C1 /* ICN_tab_search@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD42249415A33FF2005A60C1 /* CRTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4224CB15A33FF3005A60C1 /* Build configuration list for PBXNativeTarget "CRTabBar" */;
+			buildPhases = (
+				AD42249115A33FF2005A60C1 /* Sources */,
+				AD42249215A33FF2005A60C1 /* Frameworks */,
+				AD42249315A33FF2005A60C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRTabBar;
+			productName = CRTabBar;
+			productReference = AD42249515A33FF2005A60C1 /* CRTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD4224B815A33FF3005A60C1 /* CRTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD4224CE15A33FF3005A60C1 /* Build configuration list for PBXNativeTarget "CRTabBarTests" */;
+			buildPhases = (
+				AD4224B415A33FF3005A60C1 /* Sources */,
+				AD4224B515A33FF3005A60C1 /* Frameworks */,
+				AD4224B615A33FF3005A60C1 /* Resources */,
+				AD4224B715A33FF3005A60C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD4224BF15A33FF3005A60C1 /* PBXTargetDependency */,
+			);
+			name = CRTabBarTests;
+			productName = CRTabBarTests;
+			productReference = AD4224B915A33FF3005A60C1 /* CRTabBarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD42248C15A33FF2005A60C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CRTabBar;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AD42248F15A33FF2005A60C1 /* Build configuration list for PBXProject "CRTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD42248A15A33FF2005A60C1;
+			productRefGroup = AD42249615A33FF2005A60C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD42249415A33FF2005A60C1 /* CRTabBar */,
+				AD4224B815A33FF3005A60C1 /* CRTabBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD42249315A33FF2005A60C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4224A415A33FF2005A60C1 /* InfoPlist.strings in Resources */,
+				AD4224F515A344FB005A60C1 /* ICN_account_ON.png in Resources */,
+				AD4224F715A344FB005A60C1 /* ICN_account_ON@2x.png in Resources */,
+				AD4224F915A344FB005A60C1 /* ICN_account.png in Resources */,
+				AD4224FB15A344FB005A60C1 /* ICN_account@2x.png in Resources */,
+				AD4224FD15A344FB005A60C1 /* ICN_brand_ON.png in Resources */,
+				AD4224FF15A344FB005A60C1 /* ICN_brand_ON@2x.png in Resources */,
+				AD42250115A344FB005A60C1 /* ICN_brand.png in Resources */,
+				AD42250315A344FB005A60C1 /* ICN_brand@2x.png in Resources */,
+				AD42250515A344FB005A60C1 /* ICN_home_ON.png in Resources */,
+				AD42250715A344FB005A60C1 /* ICN_home_ON@2x.png in Resources */,
+				AD42250915A344FB005A60C1 /* ICN_home.png in Resources */,
+				AD42250B15A344FB005A60C1 /* ICN_home@2x.png in Resources */,
+				AD42250D15A344FB005A60C1 /* ICN_tab_info_ON.png in Resources */,
+				AD42250F15A344FB005A60C1 /* ICN_tab_info_ON@2x.png in Resources */,
+				AD42251115A344FB005A60C1 /* ICN_tab_info.png in Resources */,
+				AD42251315A344FB005A60C1 /* ICN_tab_info@2x.png in Resources */,
+				AD42251515A344FB005A60C1 /* ICN_more_ON.png in Resources */,
+				AD42251715A344FB005A60C1 /* ICN_more_ON@2x.png in Resources */,
+				AD42251915A344FB005A60C1 /* ICN_more.png in Resources */,
+				AD42251B15A344FB005A60C1 /* ICN_more@2x.png in Resources */,
+				AD42251D15A344FB005A60C1 /* ICN_recent_ON.png in Resources */,
+				AD42251F15A344FB005A60C1 /* ICN_recent_ON@2x.png in Resources */,
+				AD42252115A344FB005A60C1 /* ICN_recent.png in Resources */,
+				AD42252315A344FB005A60C1 /* ICN_recent@2x.png in Resources */,
+				AD42252515A344FB005A60C1 /* ICN_saved_ON.png in Resources */,
+				AD42252715A344FB005A60C1 /* ICN_saved_ON@2x.png in Resources */,
+				AD42252915A344FB005A60C1 /* ICN_saved.png in Resources */,
+				AD42252B15A344FB005A60C1 /* ICN_saved@2x.png in Resources */,
+				AD42252D15A344FB005A60C1 /* ICN_tab_search_ON.png in Resources */,
+				AD42252F15A344FB005A60C1 /* ICN_tab_search_ON@2x.png in Resources */,
+				AD42253115A344FB005A60C1 /* ICN_tab_search.png in Resources */,
+				AD42253315A344FB005A60C1 /* ICN_tab_search@2x.png in Resources */,
+				AD42253C15A34DE1005A60C1 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4224B615A33FF3005A60C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4224C515A33FF3005A60C1 /* InfoPlist.strings in Resources */,
+				AD4224F615A344FB005A60C1 /* ICN_account_ON.png in Resources */,
+				AD4224F815A344FB005A60C1 /* ICN_account_ON@2x.png in Resources */,
+				AD4224FA15A344FB005A60C1 /* ICN_account.png in Resources */,
+				AD4224FC15A344FB005A60C1 /* ICN_account@2x.png in Resources */,
+				AD4224FE15A344FB005A60C1 /* ICN_brand_ON.png in Resources */,
+				AD42250015A344FB005A60C1 /* ICN_brand_ON@2x.png in Resources */,
+				AD42250215A344FB005A60C1 /* ICN_brand.png in Resources */,
+				AD42250415A344FB005A60C1 /* ICN_brand@2x.png in Resources */,
+				AD42250615A344FB005A60C1 /* ICN_home_ON.png in Resources */,
+				AD42250815A344FB005A60C1 /* ICN_home_ON@2x.png in Resources */,
+				AD42250A15A344FB005A60C1 /* ICN_home.png in Resources */,
+				AD42250C15A344FB005A60C1 /* ICN_home@2x.png in Resources */,
+				AD42250E15A344FB005A60C1 /* ICN_tab_info_ON.png in Resources */,
+				AD42251015A344FB005A60C1 /* ICN_tab_info_ON@2x.png in Resources */,
+				AD42251215A344FB005A60C1 /* ICN_tab_info.png in Resources */,
+				AD42251415A344FB005A60C1 /* ICN_tab_info@2x.png in Resources */,
+				AD42251615A344FB005A60C1 /* ICN_more_ON.png in Resources */,
+				AD42251815A344FB005A60C1 /* ICN_more_ON@2x.png in Resources */,
+				AD42251A15A344FB005A60C1 /* ICN_more.png in Resources */,
+				AD42251C15A344FB005A60C1 /* ICN_more@2x.png in Resources */,
+				AD42251E15A344FB005A60C1 /* ICN_recent_ON.png in Resources */,
+				AD42252015A344FB005A60C1 /* ICN_recent_ON@2x.png in Resources */,
+				AD42252215A344FB005A60C1 /* ICN_recent.png in Resources */,
+				AD42252415A344FB005A60C1 /* ICN_recent@2x.png in Resources */,
+				AD42252615A344FB005A60C1 /* ICN_saved_ON.png in Resources */,
+				AD42252815A344FB005A60C1 /* ICN_saved_ON@2x.png in Resources */,
+				AD42252A15A344FB005A60C1 /* ICN_saved.png in Resources */,
+				AD42252C15A344FB005A60C1 /* ICN_saved@2x.png in Resources */,
+				AD42252E15A344FB005A60C1 /* ICN_tab_search_ON.png in Resources */,
+				AD42253015A344FB005A60C1 /* ICN_tab_search_ON@2x.png in Resources */,
+				AD42253215A344FB005A60C1 /* ICN_tab_search.png in Resources */,
+				AD42253415A344FB005A60C1 /* ICN_tab_search@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD4224B715A33FF3005A60C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD42249115A33FF2005A60C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4224A615A33FF2005A60C1 /* main.m in Sources */,
+				AD4224AA15A33FF2005A60C1 /* CRTabBarAppDelegate.m in Sources */,
+				AD4224D315A34024005A60C1 /* CRTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4224B415A33FF3005A60C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4224C815A33FF3005A60C1 /* CRTabBarTests.m in Sources */,
+				AD4224D415A34024005A60C1 /* CRTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD4224BF15A33FF3005A60C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42249415A33FF2005A60C1 /* CRTabBar */;
+			targetProxy = AD4224BE15A33FF3005A60C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD4224A215A33FF2005A60C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4224A315A33FF2005A60C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD4224C315A33FF3005A60C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD4224C415A33FF3005A60C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD4224C915A33FF3005A60C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD4224CA15A33FF3005A60C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD4224CC15A33FF3005A60C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRTabBar/CRTabBar-Prefix.pch";
+				INFOPLIST_FILE = "CRTabBar/CRTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD4224CD15A33FF3005A60C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRTabBar/CRTabBar-Prefix.pch";
+				INFOPLIST_FILE = "CRTabBar/CRTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD4224CF15A33FF3005A60C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CRTabBar.app/CRTabBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRTabBar/CRTabBar-Prefix.pch";
+				INFOPLIST_FILE = "CRTabBarTests/CRTabBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AD4224D015A33FF3005A60C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CRTabBar.app/CRTabBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CRTabBar/CRTabBar-Prefix.pch";
+				INFOPLIST_FILE = "CRTabBarTests/CRTabBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD42248F15A33FF2005A60C1 /* Build configuration list for PBXProject "CRTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4224C915A33FF3005A60C1 /* Debug */,
+				AD4224CA15A33FF3005A60C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4224CB15A33FF3005A60C1 /* Build configuration list for PBXNativeTarget "CRTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4224CC15A33FF3005A60C1 /* Debug */,
+				AD4224CD15A33FF3005A60C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD4224CE15A33FF3005A60C1 /* Build configuration list for PBXNativeTarget "CRTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4224CF15A33FF3005A60C1 /* Debug */,
+				AD4224D015A33FF3005A60C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD42248C15A33FF2005A60C1 /* Project object */;
+}
